@@ -346,6 +346,16 @@
             "related": ".xml"
           }
         }
+      },
+      "PrimeService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/PrimeService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PrimeService.dll": {}
+        }
       }
     }
   },
@@ -793,6 +803,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "PrimeService/1.0.0": {
+      "type": "project",
+      "path": "../PrimeService/PrimeService.csproj",
+      "msbuildProject": "../PrimeService/PrimeService.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -801,6 +816,7 @@
       "NUnit >= 4.2.2",
       "NUnit.Analyzers >= 4.3.0",
       "NUnit3TestAdapter >= 4.6.0",
+      "PrimeService >= 1.0.0",
       "coverlet.collector >= 6.0.2"
     ]
   },
@@ -828,7 +844,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/brian/funnyem/tutorials/c-sharp-unit-test-tutorial/PrimeService/PrimeService.csproj": {
+              "projectPath": "/Users/brian/funnyem/tutorials/c-sharp-unit-test-tutorial/PrimeService/PrimeService.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
