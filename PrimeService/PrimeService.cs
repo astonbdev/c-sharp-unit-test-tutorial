@@ -6,12 +6,6 @@ namespace Prime.Services
     {
         public bool IsPrime(int candidate)
         {
-            throw new NotImplementedException("Please create a test first.");
-        }
-    }
-
-    public bool IsPrime(int candidate)
-        {
             if (candidate == 1)
             {
                 return false;
@@ -19,3 +13,6 @@ namespace Prime.Services
             throw new NotImplementedException("Please create a test first.");
         }
     }
+
+
+}
